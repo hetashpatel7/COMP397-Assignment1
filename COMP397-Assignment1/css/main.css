@@ -40,7 +40,8 @@ transition: 1s;
     .slide p {
         margin-top:15px;
         margin-bottom:30px;
-        line-height:45px;
+        line-height:30px;
+        font-size:25px;
 
     }
     /*styling for slide links*/
@@ -51,6 +52,7 @@ transition: 1s;
         padding:5px;
         border-radius:5px;
         border:1px solid #cde;
+        
 
     }
     .slide a:hover,.slide a:active{
