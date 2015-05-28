@@ -1,16 +1,21 @@
-﻿<!DOCTYPE html>
+﻿
+<!--Hetash Patel-->
+<!--Date:28/5/2015-->
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>COMP397-Lesson3-Part2</title>
+    <!--Css Section-->
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
 </head>
 <body onload="init()">
     <div id="impress">
-        <!--First slide-->
-        <div id="1" class="step slide">
+        <!--1st slide-->
+        <div id="1" class="step slide" style="background-color:aliceblue">
             <div class="slide-text">
                 <p> Romance Thriller Bollywood Movie....</p>.
                 <p>Save your GirlFriend,who has been kidnapped by the villain.</p>
@@ -20,8 +25,8 @@
                 <p><center><a href="#7">Door2</a></center></p>
             </div><!--End of slide text-->
         </div><!--End of slide 1  -->
-        <!--Second slide-->
-        <div id="2" class="step slide" data-x="2500">
+        <!--2nd slide-->
+        <div id="2" class="step slide" data-x="2500" style="background-color:antiquewhite">
             <!--we can write data-z or data-x .move to another slide in different way-->
             <div class="slide-text">
                 <p>
@@ -36,7 +41,8 @@
 
             </div>
         </div><!--End of slide2-->
-        <div id="4" class="step slide" data-x="24000">
+        <!--4th Slide-->
+        <div id="4" class="step slide" data-x="24000" style="background-color:beige">
             <div class="slide-text">
                 <p>
                     You see one door and a button.You can Choose either of them.
@@ -46,10 +52,9 @@
                 <p><center><a href="#14">Press Me</a></center></p>
 
             </div>
-        </div>
-
-
-        <div id="3" class="step slide" data-z="22500">
+        </div><!--End of slide4-->
+        <!--3rd Slide-->
+        <div id="3" class="step slide" data-z="22500" style="background-color:cornsilk">
             <div class="slide-text">
                 <p>
                     You have reach to an room having an underground tunnel and a door.
@@ -60,7 +65,9 @@
 
             </div>
         </div>
-                <div id="5" class="step slide" data-x="6000">
+        <!--End of Slide3-->
+        <!--5th slide-->
+        <div id="5" class="step slide" data-x="6000" style="background-color:lavender">
             <div class="slide-text">
                 <p>
                     The Tunnels gets closed from both  ends.Suddenly tunnel starts filling up with water.
@@ -69,9 +76,12 @@
                 <div class="menu"><a href="#1">Game Over</a></div>
 
             </div>
-                    </div>
-        
-        <div id="6" class="step slide" data-x="7500">
+        </div>
+        <!--End Of slide5-->
+
+        <!--6th slide-->
+        <div id="6" class="step slide" data-x="7500" style="background-color:lavender">
+
             <div class="slide-text">
                 <p>
                     You are shot by a snipper who was waiting for you to open the door.
@@ -79,105 +89,120 @@
                 <div class="menu"><a href="#1">Game Over</a></div>
 
             </div>
-            </div><!--End of slide3-->
-            <div id="7" class="step slide" data-x="-1500">
-                <!--we can write data-z or data-x .move to another slide in different way-->
-                <div class="slide-text">
-                    <p>
-                        There are only two ways in front of you.
-                        Either Enter into a room having fire wiht fire resistant suit OR
-                        Dive into a swimming pool and swim to another end..
-                    </p>
-                    <p><center><a href="#8">Enter Room</a></center></p>
-                    <p><center>OR</center></p>
-                    <p><center><a href="#9">Dive In Swimmming Pool</a></center></p>
-                                 </div>
-            </div><!--End of slide2-->
-            <div id="8" class="step slide" data-y="9500">
-                <!--we can write data-z or data-x .move to another slide in different way-->
-                <div class="slide-text">
-                    <p>
-                        In the room you see two gears .you have to pull any one of them.
-                    </p>
-                    <p><center><a href="#10">Pull Gear 1</a></center></p>
-                    <p><center>OR</center></p>
-                    <p><center><a href="#11">Pull Gear 2</a></center></p>
+        </div><!--End of slide6-->
+
+        <!--7th slide-->
+        <div id="7" class="step slide" data-x="-1500" style="background-color:lavender">
+            <!--we can write data-z or data-x .move to another slide in different way-->
+            <div class="slide-text">
+                <p>
+                    There are only two ways in front of you.
+                    Either Enter into a room having fire wiht fire resistant suit OR
+                    Dive into a swimming pool and swim to another end..
+                </p>
+                <p><center><a href="#8">Enter Room</a></center></p>
+                <p><center>OR</center></p>
+                <p><center><a href="#9">Dive In Swimmming Pool</a></center></p>
+            </div>
+        </div><!--End of slide7-->
+
+        <!--8th slide-->
+        <div id="8" class="step slide" data-y="9500" style="background-color:lavender">
+            <!--we can write data-z or data-x .move to another slide in different way-->
+            <div class="slide-text">
+                <p>
+                    In the room you see two gears .you have to pull any one of them.
+                </p>
+                <p><center><a href="#10">Pull Gear 1</a></center></p>
+                <p><center>OR</center></p>
+                <p><center><a href="#11">Pull Gear 2</a></center></p>
 
 
 
-                </div>
-            </div><!--End of slide2-->
-            <div id="10" class="step slide" data-x="-3000">
-                <!--we can write data-z or data-x .move to another slide in different way-->
-                <div class="slide-text">
-                    <p>
-                        Suddenly bomb which was in room gets triggered and it blasts.
-                        You die because of explosion.
+            </div>
+        </div><!--End of slide8-->
 
-                    </p>
+        <!--10th slide-->
+        <div id="10" class="step slide" data-x="-3000" style="background-color:antiquewhite">
+            <!--we can write data-z or data-x .move to another slide in different way-->
+            <div class="slide-text">
+                <p>
+                    Suddenly bomb which was in room gets triggered and it blasts.
+                    You die because of explosion.
 
-                    <div class="menu"><a href="#1">Game Over</a></div>
+                </p>
 
-                </div>
-            </div><!--End of slide2-->
+                <div class="menu"><a href="#1">Game Over</a></div>
 
-            <div id="11" class="step slide" data-x="4000">
-                <!--we can write data-z or data-x .move to another slide in different way-->
-                <div class="slide-text">
-                    <p>
-                       You are automatically evacuated from the room ,but game is over for you.
-                        You couldn't save your girlfriend.
-                    </p>
-                   
-                    <div class="menu"><a href="#1">Game Over</a></div>
+            </div>
+        </div><!--End of slide10-->
 
+        <!--11th slide-->
 
-                </div>
-            </div><!--End of slide2-->
-            <div id="9" class="step slide" data-y="10500">
-                <!--we can write data-z or data-x .move to another slide in different way-->
-                <div class="slide-text">
-                    <p>
-                         You have reached at the other end of the swimming pool.
-                         Now you can take the stairs and go to another floor OR
-                         Enter in the room on your left.
-                    </p>
-                    <p><center><a href="#12">Go Up Stairs</a></center></p>
-                    <p><center>OR</center></p>
-                    <p><center><a href="#13">Enter Room</a></center></p>
+        <div id="11" class="step slide" data-x="4000" style="background-color:antiquewhite">
+            <!--we can write data-z or data-x .move to another slide in different way-->
+            <div class="slide-text">
+                <p>
+                    You are automatically evacuated from the room ,but game is over for you.
+                    You couldn't save your girlfriend.
+                </p>
+
+                <div class="menu"><a href="#1">Game Over</a></div>
 
 
+            </div>
+        </div><!--End of slide11-->
 
-                </div>
-            </div><!--End of slide2-->
-            <div id="13" class="step slide" data-y="13500">
-                <!--we can write data-z or data-x .move to another slide in different way-->
-                <div class="slide-text">
-                    <p>
-                        You get killed by goons in the room .
-                    </p>
-                    
-                    <div class="menu"><a href="#1">Game Over</a></div>
-
-
-                </div>
-            </div><!--End of slide2-->
-            <div id="12" class="step slide" data-y="14500">
-                <!--we can write data-z or data-x .move to another slide in different way-->
-                <div class="slide-text">
-                    <p>
-                        Congratulations!You saved your girlFriend.
-                    </p>
-                    <div class="menu"><a href="#1">Start Again.</a></div>
+        <!--9th slide-->
+        <div id="9" class="step slide" data-y="10500" style="background-color:antiquewhite">
+            <!--we can write data-z or data-x .move to another slide in different way-->
+            <div class="slide-text">
+                <p>
+                    You have reached at the other end of the swimming pool.
+                    Now you can take the stairs and go to another floor OR
+                    Enter in the room on your left.
+                </p>
+                <p><center><a href="#12">Go Up Stairs</a></center></p>
+                <p><center>OR</center></p>
+                <p><center><a href="#13">Enter Room</a></center></p>
 
 
 
-               
-            </div><!--End of slide2-->
+            </div>
+        </div><!--End of slide9-->
+
+        <!--13th slide-->
+        <div id="13" class="step slide" data-y="13500" style="background-color:antiquewhite">
+            <!--we can write data-z or data-x .move to another slide in different way-->
+            <div class="slide-text">
+                <p>
+                    You get killed by goons in the room .
+                </p>
+
+                <div class="menu"><a href="#1">Game Over</a></div>
+
+
+            </div>
+        </div><!--End of slide13-->
+
+        <!--12th slide-->
+        <div id="12" class="step slide" data-y="14500" style="background-color:papayawhip">
+            <!--we can write data-z or data-x .move to another slide in different way-->
+            <div class="slide-text">
+                <p>
+                    Congratulations!You saved your girlFriend.
+                </p>
+                <div class="menu"><a href="#1">Start Again.</a></div>
+
+
+
+
+            </div><!--End of slide12-->
 
 
         </div>
-        <div id="13" class="step slide" data-y="-4000">
+        <!--13th slide-->
+        <div id="13" class="step slide" data-y="-4000" style="background-color:papayawhip">
             <div class="slide-text">
                 <p>
                     You Entered into a room that is having poisonous gas.
@@ -187,22 +212,29 @@
                 <div class="menu"><a href="#1">Game Over</a></div>
 
             </div>
-        </div>
-        <div id="14" class="step slide" data-x="-8000">
+        </div><!--End of slide13-->
+        <!--14th slide-->
+        <div id="14" class="step slide" data-x="-8000" style="background-color:papayawhip">
             <div class="slide-text">
                 <p>
-                   
-                Bullet is fired from a gun as soon as you press the button and you die.
-                        </p>
+
+                    Bullet is fired from a gun as soon as you press the button and you die.
+                </p>
                 <div class="menu"><a href="#1">Game Over</a></div>
 
             </div>
         </div>
+        <!--End ofslide14-->
 
+    </div><!--End of impress-->
+    <!--JavaScript Section-->
+    <script src="scripts/lib/easeljs-0.8.0.min.js"></script>
+    <script src="scripts/lib/preloadjs-0.6.0.min.js"></script>
+    <script src="scripts/lib/tweenjs-0.6.0.min.js"></script>
+    <script src="scripts/lib/soundjs-0.6.0.min.js"></script>
+    <script src="scripts/lib/impress.js"></script>
 
-        </div><!--End of impress-->
-        <script src="scripts/lib/impress.js"></script>
-        <script src="scripts/game.js"></script>
+    <script src="scripts/game.js"></script>
 
 
 </body>

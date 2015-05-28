@@ -60,6 +60,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="assets\fonts\Dynasty.ttf" />
+    <Content Include="assets\fonts\HANG BOARD 123.ttf" />
+    <Content Include="assets\fonts\VOX.TTF" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -68,23 +71,35 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\audio\colt_45-Justin-1313234082.wav" />
+    <Content Include="assets\images\SaveYourGirlFriendImage.gif" />
     <Content Include="css\main.css" />
     <Content Include="css\reset.css" />
     <Content Include="index.html" />
+    <Content Include="scripts\lib\easeljs-0.8.0.min.js" />
     <Content Include="scripts\lib\impress.js" />
+    <Content Include="scripts\lib\preloadjs-0.6.0.min.js" />
+    <Content Include="scripts\lib\soundjs-0.6.0.min.js" />
+    <Content Include="scripts\lib\tweenjs-0.6.0.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="assets\audio\" />
-    <Folder Include="assets\fonts\" />
-    <Folder Include="assets\images\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="scripts\game.ts" />
+    <TypeScriptCompile Include="scripts\typings\createjs-lib\createjs-lib.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\easeljs\easeljs.d.ts" />
     <TypeScriptCompile Include="scripts\typings\impress\impress.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\preloadjs\preloadjs.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\soundjs\soundjs.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\tweenjs\tweenjs.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\webaudioapi\waa-20120802.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\webaudioapi\waa-nightly.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\webaudioapi\waa.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\webrtc\MediaStream.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\webrtc\RTCPeerConnection.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
