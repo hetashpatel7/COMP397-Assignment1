@@ -19,13 +19,11 @@
 }
 
 body {
-background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(119,179,227,0) 75%, rgba(125,185,232,0) 80%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(75%,rgba(119,179,227,0)), color-stop(80%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(119,179,227,0) 75%,rgba(125,185,232,0) 80%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(119,179,227,0) 75%,rgba(125,185,232,0) 80%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(119,179,227,0) 75%,rgba(125,185,232,0) 80%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(119,179,227,0) 75%,rgba(125,185,232,0) 80%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+/**/
+background-image:url(../assets/images/Capture.PNG);
+background-repeat:no-repeat;
+background-size:cover;
+background-position:left;
 
 }
 .impress-enabled.step{
@@ -62,6 +60,7 @@ transition: 1s;
         line-height:30px;
         font-size:35px;
         font-family:VOX;
+        color:white;
     }
     /*styling for slide links*/
     .slide a,.slide a:visited{
@@ -71,15 +70,18 @@ transition: 1s;
         padding:5px;
         border-radius:5px;
         border:1px solid #cde;
+        color:white;
+        background-color:burlywood;
         
 
     }
     .slide a:hover,.slide a:active{
-                background-color:#cde;
+                background-color:#0026ff;
            }
     /*styling for slide text area*/
     .slide .slide-text {
         height:450px;
+        
     }
     /*styling for menu*/
     div.menu{

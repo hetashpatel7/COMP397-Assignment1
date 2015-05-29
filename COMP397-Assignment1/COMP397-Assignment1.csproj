@@ -59,6 +59,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\1464425.png" />
+    <Content Include="assets\images\150021.jpg" />
+    <Content Include="assets\images\4504-AR73.jpg" />
+    <Content Include="assets\images\670px-Be-a-Good-Sniper-in-Any-Game-Step-3.jpg" />
+    <Content Include="assets\images\6e3c96562173e295a127a1f7f86fa82b.jpg" />
+    <Content Include="assets\images\84d2e004_vbattach170993.jpeg" />
+    <Content Include="assets\images\Capture.PNG" />
+    <Content Include="assets\images\closed.jpg" />
+    <Content Include="assets\images\explosion.jpg" />
+    <Content Include="assets\images\inch1p_17.jpg" />
+    <Content Include="assets\images\Smoky_Sky.jpg" />
+    <Content Include="assets\images\steamworkshop_webupload_previewfile_199310665_preview.jpg" />
+    <Content Include="assets\images\Swimming.jpg" />
+    <Content Include="assets\images\unnamed.png" />
     <Content Include="packages.config" />
     <Content Include="assets\fonts\Dynasty.ttf" />
     <Content Include="assets\fonts\HANG BOARD 123.ttf" />
@@ -72,7 +86,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\audio\colt_45-Justin-1313234082.wav" />
-    <Content Include="assets\images\SaveYourGirlFriendImage.gif" />
     <Content Include="css\main.css" />
     <Content Include="css\reset.css" />
     <Content Include="index.html" />
